@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "magicmore",
+	"version": "${version}",
+	"name": "Magic and More",
+	"description": "Imagine if magic was in Minecraft. :skull:",
+	"authors": [
+		"AdamMC"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/magicmore/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.adam.magicmore.MagicAndMore"
+		],
+		"client": [
+			"net.adam.magicmore.MagicAndMoreClient"
+		],
+		"fabric-datagen": [
+			"net.adam.magicmore.MagicAndMoreDataGenerator"
+		]
+	},
+	"mixins": [
+		"magicmore.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
