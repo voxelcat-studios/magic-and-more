@@ -14,11 +14,17 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
 
     public static final ItemGroup MAGIC = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(MagicAndMore.MOD_ID, "fantasy_ingot"),
+            new Identifier(MagicAndMore.MOD_ID, "fantasy"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.magic"))
                     .icon(() -> new ItemStack(ModItems.PHANTASIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PHANTASIUM_INGOT);
                         entries.add(Items.COPPER_INGOT);
+                    }).build());
+    public static final ItemGroup MORE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(MagicAndMore.MOD_ID, "more"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more"))
+                    .icon(() -> new ItemStack(ModItems.BOB)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.BOB);
                     }).build());
 
     public static void registerItemGroups() {
