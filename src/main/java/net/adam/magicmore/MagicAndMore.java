@@ -1,5 +1,6 @@
 package net.adam.magicmore;
 
+import net.adam.magicmore.item.ModItemGroups;
 import net.adam.magicmore.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +17,7 @@ public class MagicAndMore implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 
 		LOGGER.info("MAGIC!!!!");
