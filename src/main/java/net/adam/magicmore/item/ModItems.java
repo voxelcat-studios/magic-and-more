@@ -16,6 +16,8 @@ public class ModItems {
     //items
 
     public static final Item DENSE_BRICK = registerItem("dense_brick", new Item(new FabricItemSettings()));
+    public static final Item DENSER_BRICK = registerItem("denser_brick", new Item(new FabricItemSettings()));
+    public static final Item SUPERDENSE_BRICK = registerItem("superdense_brick", new Item(new FabricItemSettings()));
     public static final Item BOB = registerItem("bob", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof().maxCount(1)));
     public static final Item PHANTASIUM_INGOT = registerItem("fantasy_ingot", new Item(new FabricItemSettings()));
 

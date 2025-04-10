@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModItems.BOB);
                         entries.add(ModBlocks.DEV_BLOCK);
                         entries.add(ModItems.DENSE_BRICK);
+                        entries.add(ModItems.DENSER_BRICK);
+                        entries.add(ModItems.SUPERDENSE_BRICK);
                     }).build());
 
     public static void registerItemGroups() {

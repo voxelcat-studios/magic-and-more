@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "magicmore:dense_brick"
+    }
+  },
+  "result": {
+    "item": "magicmore:denser_brick"
+  }
+}
