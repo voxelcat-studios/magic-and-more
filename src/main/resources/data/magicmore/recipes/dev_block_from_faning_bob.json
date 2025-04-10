@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#x#",
+    "xxx",
+    "#x#"
+  ],
+  "key": {
+    "#": {
+      "item": "magicmore:fantasy_ingot"
+    },
+    "x": {
+      "item": "magicmore:bob"
+    }
+  },
+  "result": {
+    "item": "magicmore:dev_block"
+  }
+}

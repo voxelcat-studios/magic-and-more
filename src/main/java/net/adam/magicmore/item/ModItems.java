@@ -1,6 +1,7 @@
 package net.adam.magicmore.item;
 
 import net.adam.magicmore.MagicAndMore;
+import net.adam.magicmore.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -19,7 +20,6 @@ public class ModItems {
     }
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(PHANTASIUM_INGOT);
-
     }
 
     private static Item registerItem(String name, Item item) {
@@ -31,6 +31,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientsItemGroup);
+
 
     }
 }

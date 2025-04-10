@@ -1,6 +1,7 @@
 package net.adam.magicmore.item;
 
 import net.adam.magicmore.MagicAndMore;
+import net.adam.magicmore.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,12 +20,14 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PHANTASIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PHANTASIUM_INGOT);
                         entries.add(Items.COPPER_INGOT);
+
                     }).build());
     public static final ItemGroup MORE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MagicAndMore.MOD_ID, "more"),
             FabricItemGroup.builder().displayName(Text.translatable("magicmore.itemgroup.more"))
                     .icon(() -> new ItemStack(ModItems.BOB)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BOB);
+                        entries.add(ModBlocks.DEV_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

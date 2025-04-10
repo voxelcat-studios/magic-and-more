@@ -2,5 +2,6 @@
   "item.magicmore.bob": "Bob",
   "item.magicmore.fantasy_ingot": "Phantasium Ingot",
   "magicmore.itemgroup.magic": "Magic",
-  "magicmore.itemgroup.more": "More"
+  "magicmore.itemgroup.more": "More",
+  "block.magicmore.dev_block": "Dev Block"
 }
