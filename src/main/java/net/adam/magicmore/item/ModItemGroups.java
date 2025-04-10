@@ -28,6 +28,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.BOB)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BOB);
                         entries.add(ModBlocks.DEV_BLOCK);
+                        entries.add(ModItems.DENSE_BRICK);
                     }).build());
 
     public static void registerItemGroups() {
