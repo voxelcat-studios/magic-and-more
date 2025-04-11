@@ -16,8 +16,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block DEV_BLOCK = registerBlock("dev_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).jumpVelocityMultiplier(2.5f).velocityMultiplier(2).breakInstantly().burnable()));
+    public static final Block JUMPER_BLOCK = registerBlock("jumper_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).sounds(BlockSoundGroup.METAL).jumpVelocityMultiplier(2).nonOpaque().hardness(10)));
 
 
     private static Block registerBlock(String name, Block block) {

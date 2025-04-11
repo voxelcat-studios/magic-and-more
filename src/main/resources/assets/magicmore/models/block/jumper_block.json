@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "magicmore:block/dev_block"
+    "all": "magicmore:block/jumper_block"
   }
 }

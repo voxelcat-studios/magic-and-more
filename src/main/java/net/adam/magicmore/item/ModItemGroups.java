@@ -27,7 +27,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("magicmore.itemgroup.more"))
                     .icon(() -> new ItemStack(ModItems.BOB)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BOB);
-                        entries.add(ModBlocks.DEV_BLOCK);
+                        entries.add(ModBlocks.JUMPER_BLOCK);
                         entries.add(ModItems.DENSE_BRICK);
                         entries.add(ModItems.DENSER_BRICK);
                         entries.add(ModItems.SUPERDENSE_BRICK);

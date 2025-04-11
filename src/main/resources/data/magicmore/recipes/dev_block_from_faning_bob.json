@@ -11,10 +11,10 @@
       "item": "magicmore:fantasy_ingot"
     },
     "x": {
-      "item": "magicmore:bob"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {
-    "item": "magicmore:dev_block"
+    "item": "magicmore:jumper_block"
   }
 }
