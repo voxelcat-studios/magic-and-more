@@ -2,6 +2,8 @@ package net.adam.magicmore.item;
 
 import net.adam.magicmore.MagicAndMore;
 import net.adam.magicmore.block.ModBlocks;
+import net.adam.magicmore.item.custom.ArrowSpawn;
+import net.adam.magicmore.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,11 +16,14 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
     //items
+    public static final Item BOB = registerItem("bob",
+            new ArrowSpawn(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item DENSE_BRICK = registerItem("dense_brick", new Item(new FabricItemSettings()));
     public static final Item DENSER_BRICK = registerItem("denser_brick", new Item(new FabricItemSettings()));
     public static final Item SUPERDENSE_BRICK = registerItem("superdense_brick", new Item(new FabricItemSettings()));
-    public static final Item BOB = registerItem("bob", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof().maxCount(1)));
     public static final Item PHANTASIUM_INGOT = registerItem("fantasy_ingot", new Item(new FabricItemSettings()));
 
     //Tabs

@@ -17,7 +17,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block JUMPER_BLOCK = registerBlock("jumper_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).sounds(BlockSoundGroup.METAL).jumpVelocityMultiplier(2).nonOpaque().hardness(10)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).sounds(BlockSoundGroup.METAL).jumpVelocityMultiplier(2).nonOpaque().hardness(5)));
 
 
     private static Block registerBlock(String name, Block block) {

@@ -20,6 +20,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PHANTASIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PHANTASIUM_INGOT);
                         entries.add(Items.COPPER_INGOT);
+                        entries.add(ModItems.METAL_DETECTOR);
 
                     }).build());
     public static final ItemGroup MORE = Registry.register(Registries.ITEM_GROUP,
