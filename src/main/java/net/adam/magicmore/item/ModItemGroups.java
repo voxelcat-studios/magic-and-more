@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PHANTASIUM_INGOT);
                         entries.add(Items.COPPER_INGOT);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.INVISIBALL);
 
                     }).build());
     public static final ItemGroup MORE = Registry.register(Registries.ITEM_GROUP,

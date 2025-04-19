@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    },
+    {
+      "item": "magicmore:bob"
+    }
+  ],
+  "result": {
+    "item": "magicmore:superdense_brick"
+  }
+}

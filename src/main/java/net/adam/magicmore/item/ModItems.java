@@ -4,6 +4,7 @@ import net.adam.magicmore.MagicAndMore;
 import net.adam.magicmore.block.ModBlocks;
 import net.adam.magicmore.item.custom.ArrowSpawn;
 import net.adam.magicmore.item.custom.MetalDetectorItem;
+import net.adam.magicmore.item.custom.TotemItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -16,6 +17,7 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
     //items
+    public  static final Item INVISIBALL = registerItem("invisiball", new TotemItem(new FabricItemSettings().maxDamage(40)));
     public static final Item BOB = registerItem("bob",
             new ArrowSpawn(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     public static final Item METAL_DETECTOR = registerItem("metal_detector",

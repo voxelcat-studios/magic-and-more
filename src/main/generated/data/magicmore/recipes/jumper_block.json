@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "magicmore:fantasy_ingot"
+    },
+    "X": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "XXX",
+    "#X#"
+  ],
+  "result": {
+    "count": 3,
+    "item": "magicmore:jumper_block"
+  },
+  "show_notification": true
+}

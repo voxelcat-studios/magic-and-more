@@ -24,5 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DENSER_BRICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUPERDENSE_BRICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.HANDHELD_ROD);
+        itemModelGenerator.register(ModItems.PHANTASIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.INVISIBALL, Models.GENERATED);
     }
 }

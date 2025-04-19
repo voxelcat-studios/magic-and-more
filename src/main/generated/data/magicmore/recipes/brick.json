@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    },
+    {
+      "item": "magicmore:dense_brick"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brick"
+  }
+}
