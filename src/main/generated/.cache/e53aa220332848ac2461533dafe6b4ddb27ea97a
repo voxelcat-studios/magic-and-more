@@ -1,11 +1,14 @@
-// 1.20.1	2025-04-19T15:29:01.1895113	Magic and More/Model Definitions
+// 1.20.1	2025-07-06T16:18:20.7408113	Magic and More/Model Definitions
+f0ef8930eb920df78bdffc7c7fd95ddaec880f8f assets\magicmore\models\block\cooking_pot.json
 f4911794771797e854e099f2c32c562d86c7839e assets\magicmore\blockstates\jumper_block.json
-1f83fbe286a4d812f38f37f6058fbf15bfb50833 assets\magicmore\models\item\metal_detector.json
+8edd6d0dd939242127135f45d8c37028ec514e61 assets\magicmore\models\item\magic_ball.json
+76b44bdc24e2a19887dc3b169ac31626554ca77e assets\magicmore\models\item\cooking_pot.json
+feedafc58e5e0be98c9de3ed736606b942b6b231 assets\magicmore\models\item\invisiball.json
 1b29fc4c19e1e84f12d0ff1def635c34099ee948 assets\magicmore\models\item\jumper_block.json
+1f83fbe286a4d812f38f37f6058fbf15bfb50833 assets\magicmore\models\item\metal_detector.json
 c5a3853d4ded9101a740aac1057bc574cab9128a assets\magicmore\models\block\jumper_block.json
 1f978121e46075654c4967bd5d622ae2d4ca81da assets\magicmore\models\item\dense_brick.json
 6b35b7648f999d233f1d6226f37ba9117ef7df64 assets\magicmore\models\item\denser_brick.json
-8edd6d0dd939242127135f45d8c37028ec514e61 assets\magicmore\models\item\magic_ball.json
 3b470c04f6f78d12a4b72cf2d7ef38cb6eeb2760 assets\magicmore\models\item\fantasy_ingot.json
-feedafc58e5e0be98c9de3ed736606b942b6b231 assets\magicmore\models\item\invisiball.json
 02ac505157cbfde39f80a6e77acd426acfc2520f assets\magicmore\models\item\superdense_brick.json
+9f3cd5a0119286b63715cfa61ed8f39392bed469 assets\magicmore\blockstates\cooking_pot.json
