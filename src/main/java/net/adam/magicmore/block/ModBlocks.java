@@ -1,7 +1,7 @@
 package net.adam.magicmore.block;
 
 import net.adam.magicmore.MagicAndMore;
-import net.adam.magicmore.block.custom.EnderGateBlock;
+import net.adam.magicmore.block.custom.EnderPortBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -17,8 +17,8 @@ public class ModBlocks {
     public static final Block JUMPER_BLOCK = registerBlock("jumper_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL).jumpVelocityMultiplier(2).requiresTool().strength(5f)));
 
-    public static final Block COOK_POT = registerBlock("cooking_pot",
-            new EnderGateBlock(FabricBlockSettings.copyOf(Blocks.CAULDRON)));
+    public static final Block END_TELEPORTER = registerBlock("end_tp",
+            new EnderPortBlock(FabricBlockSettings.copyOf(Blocks.CAULDRON)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
