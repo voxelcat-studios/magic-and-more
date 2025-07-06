@@ -10,10 +10,10 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class TotemItem extends Item {
+public class InvisiballItem extends Item {
 
 
-    public TotemItem(Settings settings) {
+    public InvisiballItem(Settings settings) {
         super(settings);
     }
 

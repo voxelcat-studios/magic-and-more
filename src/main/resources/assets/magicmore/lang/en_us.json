@@ -8,5 +8,8 @@
   "magicmore.itemgroup.magic": "Magic",
   "magicmore.itemgroup.more": "More",
   "magicmore.tooltip.metaldetector": "Right click on a block to scan for valuables!",
-  "block.magicmore.jumper_block": "Block of Jump Boost"
+  "block.magicmore.jumper_block": "Block of Jump Boost",
+  "item.magicmore.invisiball": "Invisibility dipped Magic Ball",
+  "item.magicmore.magic_ball": "Blank Magic Ball"
+
 }
