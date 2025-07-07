@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(Items.COPPER_INGOT);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.INVISIBALL);
+                        entries.add(ModBlocks.END_TELEPORTER);
 
                     }).build());
     public static final ItemGroup MORE = Registry.register(Registries.ITEM_GROUP,
@@ -33,6 +34,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DENSE_BRICK);
                         entries.add(ModItems.DENSER_BRICK);
                         entries.add(ModItems.SUPERDENSE_BRICK);
+                        entries.add(ModBlocks.BUILDING_HAY);
                     }).build());
 
     public static void registerItemGroups() {

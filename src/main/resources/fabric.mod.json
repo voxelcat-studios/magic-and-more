@@ -3,7 +3,7 @@
 	"id": "magicmore",
 	"version": "${version}",
 	"name": "Magic and More",
-	"description": "Imagine if magic was in Minecraft. :skull:",
+	"description": "Magic and some silly stuff i made while learning modding without MCreator.",
 	"authors": [
 		"AdamMC"
 	],

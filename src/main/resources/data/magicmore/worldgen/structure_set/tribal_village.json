@@ -1,0 +1,25 @@
+{
+
+  "placement": {
+
+    "type": "minecraft:random_spread",
+
+    "salt": 19011220,
+
+    "separation": 8,
+
+    "spacing": 34,
+
+    "spread_type": "triangular"
+
+  },
+
+  "structures": [{
+
+    "structure": "magicmore:tribal_village",
+
+    "weight": 1
+
+  }]
+
+}

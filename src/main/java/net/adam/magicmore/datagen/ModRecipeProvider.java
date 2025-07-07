@@ -7,10 +7,17 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
+import org.intellij.lang.annotations.Flow;
+import org.jetbrains.annotations.NotNull;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -43,7 +50,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.PHANTASIUM_INGOT), conditionsFromItem(ModItems.PHANTASIUM_INGOT))
                 .offerTo(consumer, new Identifier(getRecipeName(ModItems.MAGIC_BALL)));
-
-
+        offerSmelting(consumer, List.of(Items.WHEAT), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BUILDING_HAY.asItem(), 0, 30, "smelting");
     }
 }
