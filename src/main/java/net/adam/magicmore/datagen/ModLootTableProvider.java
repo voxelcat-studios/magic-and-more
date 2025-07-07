@@ -14,7 +14,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.JUMPER_BLOCK);
         addDrop(ModBlocks.BUILDING_HAY);
-        addDropWithSilkTouch(ModBlocks.END_TELEPORTER);
-        addDrop(ModBlocks.END_TELEPORTER, Items.ENDER_PEARL);
+        addDrop(ModBlocks.END_TELEPORTER);
+
     }
 }
