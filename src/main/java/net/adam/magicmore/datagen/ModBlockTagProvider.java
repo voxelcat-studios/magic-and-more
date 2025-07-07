@@ -26,8 +26,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.IRON_ORES)
                 .forceAddTag(BlockTags.COAL_ORES);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.JUMPER_BLOCK);
+                .add(ModBlocks.JUMPER_BLOCK)
+                .add(ModBlocks.END_TELEPORTER);
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.JUMPER_BLOCK);
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.END_TELEPORTER);
     }
 }

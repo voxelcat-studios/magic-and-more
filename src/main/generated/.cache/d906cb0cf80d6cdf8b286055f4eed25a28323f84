@@ -1,2 +1,4 @@
-// 1.20.1	2025-07-06T16:18:20.7392365	Magic and More/Block Loot Tables
+// 1.20.1	2025-07-07T11:28:48.1242961	Magic and More/Block Loot Tables
+643b56817b53f26538ca3fd55d3a72a83be1b9c5 data\magicmore\loot_tables\blocks\end_tp.json
 89219f6aaab69e946f55bde4d6eafa9a369af71d data\magicmore\loot_tables\blocks\jumper_block.json
+a9f5dff0e7fcd8aa7ba2b6e97b9ca82303c9c103 data\magicmore\loot_tables\blocks\building_hay.json

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "magicmore:jumper_block"
+    "magicmore:jumper_block",
+    "magicmore:end_tp"
   ]
 }
