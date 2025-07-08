@@ -1,10 +1,13 @@
 package net.adam.magicmore;
 
 import net.adam.magicmore.block.ModBlocks;
+import net.adam.magicmore.entity.ModEntities;
+import net.adam.magicmore.entity.custom.PorcupineEntity;
 import net.adam.magicmore.item.ModItemGroups;
 import net.adam.magicmore.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,7 +24,7 @@ public class MagicAndMore implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 		LOGGER.info("MAGIC!!!!");
 	}
 }

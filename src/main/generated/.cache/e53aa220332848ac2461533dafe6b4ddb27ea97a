@@ -1,7 +1,7 @@
-// 1.20.1	2025-07-07T21:18:30.5724779	Magic and More/Model Definitions
+// 1.20.1	2025-07-08T20:33:28.5557031	Magic and More/Model Definitions
 f4911794771797e854e099f2c32c562d86c7839e assets\magicmore\blockstates\jumper_block.json
-f0b1ee3a47cc98a7f980208b201663a46c91ffbc assets\magicmore\models\item\building_hay.json
 8edd6d0dd939242127135f45d8c37028ec514e61 assets\magicmore\models\item\magic_ball.json
+f0b1ee3a47cc98a7f980208b201663a46c91ffbc assets\magicmore\models\item\building_hay.json
 5e913a10d4806ff80074e3be24bd6c7612267906 assets\magicmore\models\block\building_hay.json
 2d68fbbeaa85f12472146075f3d12d2a4a75af53 assets\magicmore\models\item\end_tp.json
 feedafc58e5e0be98c9de3ed736606b942b6b231 assets\magicmore\models\item\invisiball.json
@@ -13,5 +13,5 @@ c5a3853d4ded9101a740aac1057bc574cab9128a assets\magicmore\models\block\jumper_bl
 8fb9759bd2742abf92c471c9d8f44588c531546f assets\magicmore\blockstates\building_hay.json
 5a1086a4acf97c472aaaeec27496aec2cdddbb17 assets\magicmore\blockstates\end_tp.json
 3b470c04f6f78d12a4b72cf2d7ef38cb6eeb2760 assets\magicmore\models\item\fantasy_ingot.json
-542c9f1411fad0472eb08b494494c260b5fee9c8 assets\magicmore\models\block\end_tp.json
 02ac505157cbfde39f80a6e77acd426acfc2520f assets\magicmore\models\item\superdense_brick.json
+542c9f1411fad0472eb08b494494c260b5fee9c8 assets\magicmore\models\block\end_tp.json
